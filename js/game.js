@@ -12,7 +12,9 @@ function nextSequence() {
     audio.play();
     
 }
+
 $(".btn").on("click", function(event){
-    userChosenColour = $(this).attr("id");
+    var userChosenColor = $(this).attr("id");
+    userClickedPattern.push(userChosenColor);
+    console.log(userClickedPattern );
 });
-nextSequence();

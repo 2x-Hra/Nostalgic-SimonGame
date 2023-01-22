@@ -50,5 +50,6 @@ function animatePress( currentColor){
     }, 100);
 }
 
+function checkAnswer( currentLevel ){
 
-
+}
